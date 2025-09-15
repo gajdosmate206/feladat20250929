@@ -1,3 +1,6 @@
+import Hobbi from './compoments/Hobbi'
+import Konyvek from './compoments/Konyvek'
+
 function App() {
   var nev = 'Mekk Elek';
   const szulNap = {
@@ -14,6 +17,9 @@ function App() {
       <p>Az én nevem {nev}</p>
       <p>Én {szulNap.ev}. év {szulNap.ho} hónapjának {szulNap.nap} napján születtem</p>
       <p>A kedvenc színem a {getFavColor()}</p>
+
+      <Hobbi />
+      <Konyvek />
     </>
   )
 }
