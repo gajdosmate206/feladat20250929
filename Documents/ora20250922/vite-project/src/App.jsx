@@ -2,6 +2,7 @@ import './css/general.css';
 import Hello from './components/Hello.jsx';
 import {Flip, Flip2} from './components/Flips.jsx';
 import Targyak from './components/Targyak.jsx'
+import Szamlalo from './components/Szamlalo.jsx'
 
 function App() {
   return (
