@@ -29,6 +29,9 @@ function Urlap(){
                         <option value="12">12</option>
                         <option value="13">13</option>
                     </select>
+                    <br />
+                    <label htmlFor="aktiv">Aktív</label>
+                    <input type="checkbox" name="aktiv" id="aktiv" checked ={user.aktiv}></input>
                 </fieldset>
             </form>
             <p>Helló {user.nev} ({user.evf}. Évfolyam)</p>
