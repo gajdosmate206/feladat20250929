@@ -6,4 +6,4 @@ function Hobbi(){
     )
 }
 
-export default App
+export default Hobbi

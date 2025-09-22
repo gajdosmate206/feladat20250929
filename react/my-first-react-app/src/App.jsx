@@ -10,9 +10,14 @@ function App() {
   }
 
   const getFavColor = () => 'zöld';
+
+  const nevStilus = {
+    fontSize: "1.5em",
+    fontWeight: "bold"
+  }
   return(
     <>
-      <h1>Első react alkalmazásom</h1>
+      <h1 style={{textAlign: "center"}}>Első react alkalmazásom</h1>
       <p>Helló Világ</p>
       <p>Az én nevem {nev}</p>
       <p>Én {szulNap.ev}. év {szulNap.ho} hónapjának {szulNap.nap} napján születtem</p>

@@ -1,3 +1,4 @@
+import styles from '../css/konyv.module.css';
 function Konyv(){
         return(
         <>
