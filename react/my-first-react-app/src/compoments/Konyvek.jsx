@@ -1,0 +1,14 @@
+import GyurukUra from "./GyurukUra"
+import Konyv from "./Konyv"
+
+function Konyvek(){
+    return(
+        <>
+            <h2>Kedvenc könyveim</h2>
+            <GyurukUra />
+            <Konyv szerzo="Fekete István" cim="Tüskevár" />
+        </>
+    )
+}
+
+export default App
