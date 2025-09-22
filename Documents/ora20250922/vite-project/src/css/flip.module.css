@@ -5,5 +5,7 @@
     background-color: black;
 }
 .piros, .fekete{
-
+    padding: 10px;
+    color: white;
+    margin: 10px;
 }
